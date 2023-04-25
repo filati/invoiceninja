@@ -144,6 +144,14 @@ If you are considering contributing back to the main repository, please add in a
 
 Also, if you plan any additions for the main repository, you may want to discuss this with us first on Slack where we can assist with any technical information and provide advice.
 
+## PASSOS EXTRAS PARA INSTALAÇÃO
+
+Remova o diretorio /public/storage e digite o código abaixo
+```
+php artisan storage:link
+```
+
+
 ## Credits
 * [Hillel Coren](https://hillelcoren.com/)
 * [David Bomba](https://github.com/turbo124)
@@ -159,3 +167,5 @@ For further information on responsible disclosure please read [here](https://che
 ## License
 Invoice Ninja is released under the Elastic License.  
 See [LICENSE](LICENSE) for details.
+
+
